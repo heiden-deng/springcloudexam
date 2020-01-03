@@ -1,0 +1,14 @@
+
+
+spring:
+  application:
+    name: consul-service-client
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        enabled: true
+        register: false
+server:
+  port: 8082
